@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../siteestudoseno/styleentrar.css" media="screen" />
+
+  <title>Cadastro</title>
+</head>
+
+<body>
+
+  <form action="/" method="post"><!--Action é a ação que o formulário vai ter(url)
+  Method tem 2, o GET(Quando estamos puxando uma informação do servidor, tipo para fazer o login do usuário) e o POST(Quando estamos enviando uma informação para o servidor, tipo qundo eu cadastro o usuário )-->
+
+    <h1>CADASTRO</h1><br>
+
+    <h2>Preencha os dados abaixo:</h2><br>
+    <label for="nome">Nome:</label><!--Funciona como um elemento in-line-->
+    <input type="text" id="nome" name="nome" required><!--Funciona como um elemento in-line block-->
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" name="cpf" required placeholder="000-000-000-00"><!--placeholder indica os dados que devemos preencher o campo-->
+    <label for="login">Login:</label>
+    <input type="text" id="login" name="login" required><!--id quando clicar no Login habilita o campo-->
+    <label for="email">e-Mail:</label>
+    <input type="email" id="email" name="email" required><!--required não deixa o campo ficar sem preenchimento-->
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+    <button id="botao">Enviar</button>
+
+  </form>
+
+</body>
+
+</html>
