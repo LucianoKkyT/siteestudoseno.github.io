@@ -43,8 +43,8 @@ button {
 
 #botao {
   border-color: rgb(
-    1,
-    24,
-    24
+    40,
+    238,
+    238
   ); /*A borda vai assumir a cor devido a prioridade do seletor: id é 1 o primeiro da lista, classe é o segundo e a tag a terceira*/
 }
